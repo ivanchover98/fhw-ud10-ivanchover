@@ -1,8 +1,9 @@
 ---
-  - name: Copiar los archivos HTML del controller a los nodos 
+  - name: Copiar els arxius HTML del controller als nodes 
     copy:
-      src: /home/vagrant/ud10-includes/index-{{ env }}.html
+      src: /home/vagrant/fhw-ivanchover-ansible-ud10-includes/index-{{ env }}.html
       dest: /var/www/html/index.html
       owner: www-data
       group: www-data
 ...
+

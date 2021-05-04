@@ -1,5 +1,5 @@
 ---
-- name: Instalar nginx si no esxiste
+- name: instal·lar nginx si no existeix
   apt: 
     name: nginx
     state: present

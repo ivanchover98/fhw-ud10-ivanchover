@@ -1,5 +1,5 @@
 ---
-- name: Instalar Nginx
+- name: instal·lar nginx
   become: yes
   hosts: webservers
   tasks:
